@@ -1,0 +1,667 @@
+body{
+    margin: 0;
+    
+}
+.logo{
+    width: 52px;
+    height: 52px;
+    margin-left: 7.5%;
+    margin-top: 1.3%;
+    position: absolute;
+    display: flex;
+}
+.names{
+    position: absolute;
+    display: flex;
+    top: -4px;
+    left: 58px;
+    padding: 20px 8%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f{
+    margin-left: 25px;
+    list-style: none;
+    display: flex;
+    
+}
+.names .f a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: 100px;
+}
+.main{
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+.i{
+    filter: brightness(0) invert(1);
+    height: 18px;
+}
+.icon{
+    position: absolute;
+    display: flex;
+    top: -4px;
+    left: 850px;
+    padding: 20px 8%;
+    align-items: center;
+    justify-content: space-between;
+    background-size: 10px;
+}
+.ic{
+    margin-left: 31px;
+    list-style: none;
+    display: flex;
+}
+.ad{
+    height: 720px;
+    width: 1280px;
+    position: absolute;
+    display: flex;
+}
+.main video{
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    z-index: 0;
+}
+.h{
+    width: 84%;
+    height: 1.5px;
+    margin-top: 83px;
+    margin-left: 95px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+}
+.label{
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 97px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 60;  
+}
+.label span{
+    font-weight: 800;
+}
+.button1{
+    margin-top: 454px;
+    margin-left: 108px;
+    background-color: #1c69d4;
+    position: absolute;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 165px;
+    height: 3.25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.button1 span{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.the{
+    position: absolute;
+    color: #fff;
+    margin-top: 180px;
+    margin-left: 109px;
+}
+.the1{
+    font-weight: 2;
+    font-family: system-ui;
+    letter-spacing: 11px;
+}
+.num{
+    position: absolute;
+    color: #fff;
+    margin-top: -23px;
+    margin-left: 100px;
+   }
+.num1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 15rem;
+}
+.wheel{
+    position: absolute;
+    color: #fff;
+    margin-top: 391px;
+    margin-left: 106px;
+}
+.wheel1{
+    font-weight: 2;
+    font-family: system-ui;
+    font-size: 27px;
+}
+.main2{
+    background: rgb(228, 228, 228);
+    width: 100%;
+    height: 100vh;
+}
+.all1{
+    position: absolute;
+    display: flex;
+}
+.image2{
+    margin-top: 70px;
+}
+.scnd{
+    position: absolute;
+    color: #fff;
+    margin-top: 241px;
+    margin-left: 111px;
+}
+.scnd h2{
+    font-weight: 2;
+    font-family: system-ui;
+    font-size: 13px;
+}
+.drive{
+    position: absolute;
+    color: #fff;
+    margin-top: 226px;
+    margin-left: 109px;
+}
+.drive h2{
+    font-weight: 2;
+    font-family: system-ui;
+    font-size: 43px;
+}
+.stay{
+    position: absolute;
+    color: #fff;
+    margin-top: 286px;
+    margin-left: 109px;
+}
+.stay h2{
+    font-weight: 2;
+    font-family: system-ui;
+    font-size: 30px;
+}
+.button2{
+    margin-top: 373px;
+    margin-left: 108px;
+    background-color: #1c69d4;
+    position: absolute;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 165px;
+    height: 3.25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.button2 span{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.labels{
+    background: hsl(0, 0%, 100%);
+    height: 175px;
+    width: 100%;
+}
+.tools{
+    position: absolute;
+    color: #000000;
+    margin-top: 71px;
+    margin-left: 45%;
+}
+.tools h2{
+    font-weight: 2;
+    font-family: system-ui;
+    font-size: 15px;
+}
+.find{
+    position: absolute;
+    color: #000000;
+    margin-top: 71px;
+    margin-left: 451px;
+}
+.find h1{
+    font-weight: 2;
+    font-family: system-ui;
+    font-size: 50px;
+}
+.car-vector{
+    margin-left: 150px;
+}
+.main3{
+    width: 100%;
+    height: 27.5rem;
+}
+.caption1{
+    position: absolute;
+    color: #000000;
+    margin-top: -27px;
+    margin-left: 17%;
+}
+.caption1 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 28px;
+}
+.caption2{
+    position: absolute;
+    color: #000000;
+    margin-top: -27px;
+    margin-left: 42%;
+}
+.caption2 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 28px;
+}
+.caption3{
+    position: absolute;
+    color: #000000;
+    margin-top: -27px;
+    margin-left: 68%;
+}
+.caption3 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 28px;
+}
+.button-vector1{
+    margin-top: 71px;
+    margin-left: 235px;
+    background-color: #98a1ae00;
+    position: absolute;
+    border: 1.5px solid black;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    width: 137px;
+    height: 3.25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.button-vector1 span{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.button-vector2{
+    margin-top: 71px;
+    margin-left: 539px;
+    background-color: #98a1ae00;
+    position: absolute;
+    border: 1.5px solid black;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    width: 186px;
+    height: 3.25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.button-vector2 span{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.button-vector3{
+    margin-top: 71px;
+    margin-left: 858px;
+    background-color: #98a1ae00;
+    position: absolute;
+    border: 1.5px solid black;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    width: 186px;
+    height: 3.25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.button-vector3{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.main4{
+    width: 100%;
+    height: 26.3rem;
+}
+.twocar img{
+    position: absolute;
+    width: 1263px;
+    height: 420px;
+    object-fit: cover;
+    object-position: 20% center ;
+}
+.this{
+    position: absolute;
+    color: #fff;
+    margin-top: 101px;
+    margin-left: 118px;
+}
+.this h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 40px;
+}
+.know1{
+    margin-top: 224px;
+    margin-left: 119px;
+    background-color: #ffffff00;
+    position: absolute;
+    border: 1.5px solid rgb(255, 254, 254);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    width: 230px;
+    height: 3.25rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.know1 span{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.banner img{
+    width: 523px;
+    height: 294px;
+    object-fit: cover;
+}
+.banner{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+section{
+    background-color: hsl(0, 0%, 100%);
+}
+.main5{
+    width: 100%;
+    height: 23rem;
+}
+.caption4{
+    position: absolute;
+    color: #000000;
+    margin-top: -246px;
+    margin-left: 51%;
+}
+.caption4 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.caption5{
+    position: absolute;
+    color: #000000;
+    margin-top: -246px;
+    margin-left: 51%;
+}
+.caption5 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 41px;
+}
+.caption6{
+    position: absolute;
+    color: #000000;
+    margin-top: -108px;
+    margin-left: 51%;
+}
+.caption6 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 20px;
+}
+.know2{
+    margin-top: -15px;
+    margin-left: 645px;
+    background-color: #ffffff00;
+    position: absolute;
+    border: 1.4px solid rgb(0, 0, 0);
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    width: 162px;
+    height: 3.5rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.know2 span{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+
+
+.main6{
+    width: 100%;
+    height: 28rem;
+}
+.caption7{
+    position: absolute;
+    color: #000000;
+    margin-top: -246px;
+    margin-left: 51%;
+}
+.caption7 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.caption8{
+    position: absolute;
+    color: #000000;
+    margin-top: -246px;
+    margin-left: 51%;
+}
+.caption8 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 41px;
+}
+.caption9{
+    position: absolute;
+    color: #000000;
+    margin-top: -158px;
+    margin-left: 51%;
+}
+.caption9 h2{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 20px;
+}
+.know3{
+    margin-top: -22px;
+    margin-left: 645px;
+    background-color: #ffffff00;
+    position: absolute;
+    border: 1.4px solid rgb(0, 0, 0);
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    width: 162px;
+    height: 3.5rem;
+    border-radius: 3px;
+    text-align: center;
+}
+.know3 span{
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.banner2 img{
+    width: 523px;
+    height: 294px;
+    object-fit: cover;
+}
+.banner2{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.line{
+    margin-top: 71px;
+}
+.line1{
+    color: #fff;
+    width: 100%;
+    height: 0px;
+}
+.final1{
+    font-weight: 3;
+    font-family: system-ui;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 101px;
+}
+.final2{
+    font-weight: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    margin-top: -30px;
+    margin-left: 240px;
+}
+.call-button{
+    width: 55px;
+    height: 55px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40%;
+    right: 5%;
+    box-shadow: 0px 0px 18px #8f8f8f;
+    border: none;
+}
+.call-button i{
+    filter: brightness(0) invert(0);
+    font-size: large;
+}
+.container{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 27.5rem;
+}
+.footer-heads{
+    position: absolute;
+    display: flex;
+    padding-top: 65px;
+    margin-left: -10.5%;
+    align-items: center;
+    justify-content: space-between;
+    background-size: 10px;
+}
+.footer-heads li{
+    margin-left: 198px;
+    list-style: none;
+    display: flex;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-downheads1{
+    position: absolute;
+    padding-top: 90px;
+    margin-left: 5.2%;
+    align-items: center;
+    background-size: 10px;
+    list-style: none;
+    justify-content: space-around;
+}
+.footer-downheads1 li{
+    margin-top: 14px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-downheads2{
+    position: absolute;
+    padding-top: 90px;
+    margin-left: 24.5%;
+    align-items: center;
+    background-size: 10px;
+    list-style: none;
+    justify-content: space-around;
+}
+.footer-downheads2 li{
+    margin-top: 14px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-downheads3{
+    position: absolute;
+    padding-top: 90px;
+    margin-left: 45.2%;
+    align-items: center;
+    background-size: 10px;
+    list-style: none;
+    justify-content: space-around;
+}
+.footer-downheads3 li{
+    margin-top: 14px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer-downheads4{
+    position: absolute;
+    padding-top: 90px;
+    margin-left: 68.6%;
+    align-items: center;
+    background-size: 10px;
+    list-style: none;
+    justify-content: space-around;
+}
+.footer-downheads4 li{
+    margin-top: 14px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hover img{
+    width: 1.8rem;
+
+}
+.hover{
+    padding-top: 379px;
+    margin-left: 100px;
+}
+
+.final-footer{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 5rem;
+}
+.final-head h1{
+    position: absolute;
+    display: flex;
+    width: 145px;
+    margin-top: 30px;
+    margin-left: 106px;
+    font-weight: 350;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.final-list1{
+    position: absolute;
+    display: flex;
+    padding-top: 18px;
+    margin-left: 57.5%;
+    align-items: center;
+    justify-content: space-between;
+    background-size: 10px;
+}
+.final-list1 li{
+    font-weight: 600;
+    margin-left: 37px;
+    list-style: none;
+    display: flex;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
